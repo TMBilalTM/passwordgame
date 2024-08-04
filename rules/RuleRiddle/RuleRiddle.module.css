@@ -1,0 +1,9 @@
+.riddle_wrapper{
+    display: grid;
+    grid-template-columns: auto 50px;
+    align-items: center;
+    justify-content:space-between;
+    padding: 8px 8px 8px 15px;
+    margin-top: 8px;
+    gap: 5px;
+}

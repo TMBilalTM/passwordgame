@@ -1,0 +1,43 @@
+.container{
+    width: 576px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    color: #4e4e4e;
+    min-height: calc(100vh - 50px);
+    text-align: center;
+}
+.buttons{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.buttons>button{
+
+    margin: 5px 5px 5px 5px;
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #4e4e4e;
+    font-size: 14px;
+    padding: .75rem 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.buttons>button:hover {
+  /* background-color: rgb(249,250,251); */
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.25)
+}
+.buttons>button:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.buttons>button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.buttons>button:focus-visible {
+  box-shadow: none;
+}

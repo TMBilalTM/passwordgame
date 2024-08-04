@@ -1,0 +1,38 @@
+.sliding_puzzle{
+    display: grid;
+    grid-template-columns: repeat(3, 62px);
+    gap: 8px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.puzzle_piece{
+    border: 2px solid #6f6f6f;
+    width: 62px;
+    height: 62px;
+}
+.puzzle_piece:hover{
+    box-shadow: rgba(0, 0, 0, 0.28) 1px 4px 6px;
+    cursor: pointer;
+}
+.puzzle_piece.blank_piece{
+    box-shadow: none;
+    border: none;
+}
+
+.puzzle_piece_wrapper{
+    position: relative;
+    box-sizing: border-box;
+    width: 62px;
+    height: 62px;
+    
+}
+
+.puzzle_piece_num{
+    font-size: 14px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    background-color: rgba(253, 246, 43, 0.63);
+    padding: 1px 4px 1px 4px;
+}

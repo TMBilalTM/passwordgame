@@ -1,0 +1,15 @@
+.reload_button{
+    margin-left: auto;
+    padding:3px;
+    display: grid;
+    grid-template-columns: auto 14px;
+}
+.reload_button:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+.reloads_left{
+    font-size: 14px;
+    font-weight: bold;
+    align-self: end;
+}
