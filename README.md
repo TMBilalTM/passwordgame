@@ -11,7 +11,7 @@ Bu oyun fikri, [Neal](https://twitter.com/nealagarwal) tarafından yapılan [The
 ## Geliştirme
 ### Başlarken
 
-1. Bu kodu terminale yapıştırın: `git clone https://github.com/TMBilalTM/passwordgame/passwordgame.git`.
+1. Bu kodu terminale yapıştırın: `git clone https://github.com/TMBilalTM/passwordgame.git`.
 2. Komut satırından proje dizinine gidin: `cd passwordgame`.
 3. Gerekli bağımlılıkları yüklemek için `npm install` komutunu çalıştırın.
 4. Geliştirme sunucusunu `npm run dev` ile başlatın.
