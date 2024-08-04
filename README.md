@@ -4,7 +4,7 @@
 
 [Şifre Oluşturucuyu Şimdi Oyna](https://sifreolusturucu.vercel.app)
 
-![şifreolusturucu](https://imgur.com/VNpmNed)
+![şifreolusturucu](https://github.com/user-attachments/assets/506f286a-66c0-4993-845d-c3471288dbe6)
 
 Bu oyun fikri, [Neal](https://twitter.com/nealagarwal) tarafından yapılan [The Password Game](https://neal.fun/password-game/) den esinlenilmiştir. Eğer henüz oynamadıysanız, orijinalini mutlaka kontrol edin.
 
