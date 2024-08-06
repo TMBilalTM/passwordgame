@@ -13,14 +13,15 @@ export default class RuleMorse extends Rule{
 
     check(txt){
         let letters = txt.match(/[A-Za-z]/g)?.slice(0, 3);
-        if(letters?.length===3)
-        {
+        
+        if (letters?.length === 3) {
             let code = `${morse[letters[0].toLowerCase()]} ${morse[letters[1].toLowerCase()]} ${morse[letters[2].toLowerCase()]}`;
-            
-            let exp = `${code}`;
-            exp = exp.replaceAll(".", "\\.");
+            let exp = code.replace(/\./g, "\\.").replace(/-/g, "\\-");
+
             console.log("morse:", exp);
             let r = new RegExp(exp);
+            
+
             return r.test(txt);
         }
         return false;
