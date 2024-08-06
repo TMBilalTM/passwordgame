@@ -38,7 +38,7 @@ var rules = [
     ),
     new RuleSum(),
     new Rule(
-        "Şifreniz \"enerji santrali\" adını içermelidir. \u{1F9A0}", //&#x1F9A0;
+        "Şifreniz \"Hücrenin enerji santrali\" adını içermelidir. \u{1F9A0}", //&#x1F9A0;
         (t) => /(?:enerji santrali)|(?:enerjisantrali)/i.test(t)
     ),
     new Rule( 
@@ -57,10 +57,11 @@ var rules = [
     new RuleMorse(),
     new RuleLocation(),
     new RuleRiddle(),
-    new Rule(
-        "Şifrenizde ünlüler kadar ünsüzler bulunmalıdır.",
-        (t) => (t.match(/[aeıiuüoö]/ig) || []).length === (t.match(/[bcdfghjklmnpqrstvwxys]/ig) || []).length
-    ),
+   new Rule(
+    "Şifrenizde ünlüler kadar ünsüzler bulunmalıdır.",
+     (t) => /(?:bcdfghjklmnpqrstvwxyz)|(?:BCDFGHJKLMNPQRSTVWXYZ)/i.test(t)
+),
+
     new RuleSlidingPuzzle(),
     new Rule(
         "Şifreniz, şifrenizin uzunluğunu içermelidir.",
